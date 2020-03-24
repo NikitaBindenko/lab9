@@ -1,0 +1,7 @@
+#pragma once
+
+double determinant(int* matrix, int size);
+
+int D2Arr(int* arr);
+
+void GetCofactor(int* matrix, int* cofactor, int line, int size);
